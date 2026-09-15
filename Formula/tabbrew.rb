@@ -6,23 +6,23 @@ class Tabbrew < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/colevels/tabbrew-cli/releases/download/v0.9.7/tabbrew-darwin-arm64"
-      sha256 "b9a4eba0426ecd3871a59f14d4788be82a29af957ba0e300e2aee91c854c7801"
+      url "https://github.com/colevels/tabbrew-cli/releases/download/v0.9.8/tabbrew-darwin-arm64"
+      sha256 "7eb3149feed307a21792b9959f6146f2ff8f9bdf3674a7c785f56254f5530f30"
     end
     on_intel do
-      url "https://github.com/colevels/tabbrew-cli/releases/download/v0.9.7/tabbrew-darwin-x64"
-      sha256 "48295ac0624251585ee1b4c2975704720cb9d9bcded6a1757febfd0e997331a9"
+      url "https://github.com/colevels/tabbrew-cli/releases/download/v0.9.8/tabbrew-darwin-x64"
+      sha256 "31fd5c2566458b71655efbbc9bb1d61a59fbcb21a253bd1053ee81708890c6ce"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/colevels/tabbrew-cli/releases/download/v0.9.7/tabbrew-linux-arm64"
-      sha256 "83dc902bdefe470840e000d433aceef1c61bcca936edd1960373e3a501bab5c3"
+      url "https://github.com/colevels/tabbrew-cli/releases/download/v0.9.8/tabbrew-linux-arm64"
+      sha256 "d94f8c9fa9633ef5a2138165ae268b179ee679b67140a03107e80da9dafbde41"
     end
     on_intel do
-      url "https://github.com/colevels/tabbrew-cli/releases/download/v0.9.7/tabbrew-linux-x64"
-      sha256 "69895dc3b8a92966c07f3b152df96732c011a72185377a0595008c136f08a834"
+      url "https://github.com/colevels/tabbrew-cli/releases/download/v0.9.8/tabbrew-linux-x64"
+      sha256 "0f6ad03f406d9c86618136bf3205a1c14a0240b2a52f6f651ec027b8fc594732"
     end
   end
 
